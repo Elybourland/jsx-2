@@ -10,11 +10,10 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Create a component
 const App = () => {
-  const message = 'adgadsga'
 
   return (
     <div>
-      <h1>{message}</h1>
+      <h1>{new Date().toLocaleTimeString()}</h1>
     </div>
   )
 }
