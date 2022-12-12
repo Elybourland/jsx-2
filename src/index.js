@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(el);
 // 4) Create a component
 const App = () => {
 
-  return <textarea autoFocus={true} />
+  return <input maxLength={10} spellCheck style={{ borderRadius: "5px" }} />
 }
 
 // 5) Show the component on the screen
